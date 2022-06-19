@@ -1,11 +1,7 @@
 .body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  background-color: rgb(229, 221, 221);
-  padding-bottom: 3vh;
   margin-top: 60px;
-
+  width: 100%;
+  height: calc(100vh - 60px);
 }
 
 .resum {
@@ -93,7 +89,7 @@ height: 45%;
 }
 
 .minisection{
-
+  position: relative;
   margin-left: 2vw;
   display: flex;
   justify-content: center;
@@ -103,9 +99,18 @@ height: 45%;
 
 .normal{
   font-weight: normal;
+  font-size: auto;
 }
 
 .desc{
-    margin-left: 2vw;
-    text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100%;
+}
+
+.child{
+  width: 90%;
+  height: 90%;
 }
