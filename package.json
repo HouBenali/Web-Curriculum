@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript",
-    "heroku-postbuild": "ng build --prod",
-    "start" : "node server.js",
+    "preinstall": "npm install --location=global @angular/cli @angular/compiler-cli typescript",
+    "heroku-postbuild": "ng build",
+    "start": "node server.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
