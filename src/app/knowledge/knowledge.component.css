@@ -102,3 +102,24 @@
 .round{
   border-radius: 1vw;
 }
+
+.other{
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  flex-direction:column;
+  background-color: white;
+  color: black;
+  margin-top: 3vh;
+  border-radius: 8px;
+}
+
+input:checked {
+  height: 50px;
+  width: 50px;
+}
+
+.otherCheck{
+  padding: 5px;
+
+}

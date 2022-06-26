@@ -24,13 +24,12 @@
   height:100%;
 }
 
-.child{
-  width: 90%;
-  height: 90%;
-}
-
 .border {
+  margin-top: 25px;
   border: none!important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .title{
